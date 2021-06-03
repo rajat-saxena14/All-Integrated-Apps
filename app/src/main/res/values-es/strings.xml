@@ -1,0 +1,24 @@
+<resources>
+    <string name="albums">%s (álbumes: %d)</string>
+    <string name="eq">Ecualizador</string>
+    <string name="no_eq">No se encontró un ecualizador</string>
+    <string name="bad_id">¡Primero reproduce una canción!</string>
+    <string name="enjoy">Selecciona una canción</string>
+    <string name="no_browser">No se encontró un navegador</string>
+    <string name="perm_rationale">Para reproducir la música en tu teléfono, CUSTOM MUSIC PLAYER necesita acceso a tus archivos</string>
+    <string name="error_no_music">No se encontró música en tu teléfono</string>
+    <string name="artist_info">&lt;b>Álbumes:\n&lt;/b>%1d\n\u2022\n&lt;b>Canciones:\n&lt;/b>%2d</string>
+    <string-array name="colornames">
+        <item>RED</item>
+        <item>GREEN</item>
+        <item>BLUE</item>
+        <item>Default(WHITE)</item>
+    </string-array>
+
+    <string-array name="colorvalues">
+        <item>#ff0000</item>
+        <item>#00ff00</item>
+        <item>#0000ff</item>
+        <item>#ffffff</item>
+    </string-array>
+</resources>

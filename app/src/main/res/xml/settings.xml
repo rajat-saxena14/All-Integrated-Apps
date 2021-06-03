@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="HOMESCREEN SETTINGS">
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="c1"
+            android:title="APPLY COLOUR TO HOME" />
+
+    <ListPreference
+        android:defaultValue="1"
+        android:dependency="c1"
+        android:entries="@array/colornames"
+        android:entryValues="@array/colorvalues"
+        android:key="l1"
+        android:title="CHOOSE A COLOUR FROM THE LIST" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="PROFILE SETTINGS">
+        <EditTextPreference
+            android:defaultValue="ENTER NAME IN PROFILE SETTINGS"
+            android:key="e1"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="CHOOSE A USERNAME"/>
+        <EditTextPreference
+            android:defaultValue="ENTER AGE IN PROFILE SETTINGS"
+            android:key="e2"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="AGE"/>
+    </PreferenceCategory>
+</PreferenceScreen>

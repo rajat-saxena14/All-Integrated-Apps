@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="Settings"
+        android:id="@+id/menus"
+        app:showAsAction="always"
+        android:icon="@drawable/profile2"
+        android:layout_width="46dp"
+        android:layout_height="56dp">
+        <menu>
+            <item
+                android:title="About us"
+                android:id="@+id/menua"/>
+
+            <item
+                android:title="Contact"
+                android:id="@+id/menuc"/>
+            <item
+                android:title="Quit"
+                android:id="@+id/menuq"/>
+
+        </menu>
+    </item>
+
+
+</menu>

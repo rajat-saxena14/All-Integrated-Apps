@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/al"
+    tools:context=".SplashAnimation">
+
+    <TextView
+        android:id="@+id/t4"
+        android:layout_width="185dp"
+        android:layout_height="122dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="48.9dp"
+        android:background="#85FFC107"
+        android:text="SUBMITTED TO-\n\nMR. ANAND RAI\n(DEPT. OF CSE)\nSRMU"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:gravity="center"
+        android:text="INTEGRATED APPS\nPROJECT SUBMISSION"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/t1" />
+
+    <ImageView
+        android:id="@+id/iv"
+        android:layout_width="154dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/ak"
+        app:layout_constraintBottom_toTopOf="@+id/t1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="0dp"
+        android:layout_height="87dp"
+        android:layout_marginTop="224dp"
+        android:gravity="center"
+        android:text="MOBILE APPLICATION DEVELOPMENT\nBCS7105(DE-II)"
+        android:textColor="@color/white"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/t3"
+        android:layout_width="185dp"
+        android:layout_height="122dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginBottom="49dp"
+        android:background="#85FFC107"
+        android:text="SUBMITTED BY-\n\nRAJAT SAXENA\n201710101110012\nB.TECH(CSE)-71"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

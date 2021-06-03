@@ -1,0 +1,24 @@
+<resources>
+    <string name="albums">%s (альбомов: %d)</string>
+    <string name="eq">Эквалайзер</string>
+    <string name="no_eq">Эквалайзер не обнаружен!</string>
+    <string name="bad_id">Сначала выберите песню!</string>
+    <string name="enjoy">Выберите песню</string>
+    <string name="no_browser">Браузер не найден</string>
+    <string name="perm_rationale">Для воспроизведения музыки нужен доступ Music Player-GO к Вашим файлам</string>
+    <string name="error_no_music">Музыка отсутствует</string>
+    <string name="artist_info">&lt;b>Aльбомов:\n&lt;/b>%1d\n\u2022\n&lt;b>Песен:\n&lt;/b>%2d</string>
+    <string-array name="colornames">
+        <item>RED</item>
+        <item>GREEN</item>
+        <item>BLUE</item>
+        <item>Default(WHITE)</item>
+    </string-array>
+
+    <string-array name="colorvalues">
+        <item>#ff0000</item>
+        <item>#00ff00</item>
+        <item>#0000ff</item>
+        <item>#ffffff</item>
+    </string-array>
+</resources>

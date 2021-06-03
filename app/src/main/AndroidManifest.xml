@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.allandroidprojects">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AllAndroidProjects"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".ServerRegistration3"
+                  android:label="SERVER REGISTRATION"/>
+        <activity android:name=".ServerRegistration2"
+                  android:label="SERVER REGISTRATION"/>
+        <activity
+            android:name=".ServerRegistration1"
+            android:label="SERVER REGISTRATION" />
+        <activity
+            android:name=".Asynctask"
+            android:banner="@color/white"
+            android:label="Async Task" />
+        <activity
+            android:name=".Myservice1"
+            android:label="My Service" />
+        <activity android:name=".SplashAnimation1">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SplashAnimation" />
+        <activity
+            android:name=".MyMusicPlayer"
+            android:label="CUSTOM MUSIC PLAYER"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeBlue" />
+
+        <service android:name=".playback.MusicService" />
+        <service android:name=".Myservice2" />
+
+        <activity
+            android:name=".ContentProviders"
+            android:label="CONTENT PROVIDERS" />
+        <activity
+            android:name=".CustomToast1"
+            android:label="CUSTOM TOAST" />
+        <activity
+            android:name=".Listview"
+            android:label="LISTVIEW" />
+
+        <provider
+            android:name=".SQLITESHOPDBPROVIDER4"
+            android:authorities="com.example.allandroidprojects"
+            android:enabled="true"
+            android:exported="true"
+            android:multiprocess="true" />
+
+        <activity
+            android:name=".SQLITE2"
+            android:label="CONTENT PROVIDER DB ACCESS" />
+        <activity
+            android:name=".SQLITESHOPDB2"
+            android:label="SQLite"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".SQLITE1"
+            android:label="SQLite" />
+        <activity
+            android:name=".MenuWithSettings2"
+            android:label="MENU WITH SETTINGS" />
+        <activity
+            android:name=".MenuWithSettings1"
+            android:label="MENU WITH SETTINGS" />
+        <activity
+            android:name=".PreferenceActivity1"
+            android:label="PREFERENCE ACTIVITY" />
+        <activity
+            android:name=".PreferenceActivity2"
+            android:label="PREFERENCE ACTIVITY" />
+        <activity
+            android:name=".Sharedpreferences"
+            android:label="SHARED PREFERENCES" />
+        <activity
+            android:name=".AlertBox"
+            android:label="ALERT BOX" />
+        <activity
+            android:name=".NotificationActionInputNew2"
+            android:label="NOTIFICATION ACTION INPUT" />
+        <activity
+            android:name=".NotificationActionInputNew1"
+            android:label="NOTIFICATION ACTION INPUT" />
+        <activity
+            android:name=".Notifications2"
+            android:label="NOTIFICATIONS" />
+        <activity
+            android:name=".Notifications1"
+            android:label="NOTIFICATIONS" />
+        <activity
+            android:name=".Menus"
+            android:label="MENUS IN ANDROID" />
+        <activity
+            android:name=".CustomAlertDialog2"
+            android:label="CUSTOM ALERT BOX"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".CustomAlertDialog1"
+            android:label="CUSTOM ALERT BOX" />
+        <activity
+            android:name=".VideoPlayer"
+            android:label="VIDEO PLAYER" />
+        <activity
+            android:name=".MusicPlayer"
+            android:label="MUSIC PLAYER" />
+        <activity
+            android:name=".WebBrowser"
+            android:label="WEB BROWSER" />
+        <activity
+            android:name=".Seekbar"
+            android:label="SEEKBAR" />
+        <activity
+            android:name=".Progressbar"
+            android:label="PROGRESS BAR" />
+        <activity
+            android:name=".FragmentCommunication3"
+            android:label="FRAGMENT COMMUNICATION"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".FragmentCommunication2"
+            android:label="FRAGMENT COMMUNICATION"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".FragmentCommunication1"
+            android:label="FRAGMENT COMMUNICATION" />
+        <activity
+            android:name=".DFrag3"
+            android:label="DYNAMIC FRAGMENT"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".DFrag2"
+            android:label="DYNAMIC FRAGMENT"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".DFrag1"
+            android:label="DYNAMIC FRAGMENT" />
+        <activity
+            android:name=".SFrag2"
+            android:label="STATIC FRAGMENT"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".SFrag1"
+            android:label="STATIC FRAGMENT" />
+        <activity
+            android:name=".ToggleSwitchBtn"
+            android:label="TOGGLE AND SWITCH BUTTON" />
+        <activity
+            android:name=".CheckboxDialog"
+            android:label="CHECKBOX DIALOG" />
+        <activity
+            android:name=".Checkbox"
+            android:label="CHECKBOX" />
+        <activity
+            android:name=".RadioImage"
+            android:label="RADIO IMAGE" />
+        <activity
+            android:name=".RelativeLayoutFB"
+            android:label="FACEBOOK" />
+        <activity
+            android:name=".LinearLayoutCalculator"
+            android:label="CALCULATOR" />
+        <activity
+            android:name=".Intents2"
+            android:label="INTENTS" />
+        <activity
+            android:name=".Intents1"
+            android:label="INTENTS" />
+        <activity
+            android:name=".Form2"
+            android:label="BUTTON" />
+        <activity
+            android:name=".Form1"
+            android:label="BUTTON" />
+        <activity
+            android:name=".MultipleIntents1"
+            android:label="MULTIPLE INTENTS" />
+        <activity
+            android:name=".MultipleIntents2"
+            android:label="MULTIPLE INTENTS" />
+        <activity
+            android:name=".Alc2"
+            android:label="ANDROID ACTIVITY LIFECYCLE" />
+        <activity
+            android:name=".Alc1"
+            android:label="ANDROID ACTIVITY LIFECYCLE" />
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>
