@@ -77,3 +77,7 @@ Android development in Java from scratch. Created a single android application c
 
 * Server Registration using Apache and MySQL server by XAMPP
 
+Demo GIF
+
+![Alt Text](/app/src/main/assets/allintegrated.gif)
+
